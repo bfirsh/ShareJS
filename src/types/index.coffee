@@ -15,6 +15,9 @@ register './text-tp2'
 
 register './json'
 
+register './etherpad'
+register './etherpad-api'
+
 exports.helpers = require './helpers'
 exports.testHelpers = require '../../test/helpers'
 
